@@ -1,0 +1,7 @@
+transformers
+datasets
+accelerate
+lion-pytorch
+kagglehub
+matplotlib
+scikit-learn
