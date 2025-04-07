@@ -33,12 +33,6 @@ pip install -r requirements.txt
 
 You will need to install PyTorch for the pipelines to work. Visit the [official PyTorch website](https://pytorch.org/get-started/locally/) and follow the instructions to install the appropriate version for your system.
 
-For example, to install PyTorch with CUDA 11.1, use the following command:
-
-```bash
-pip install torch torchvision torchaudio
-```
-
 ## Running the NLP Pipeline
 
 ### 1. Configure the Model
