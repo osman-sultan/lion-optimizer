@@ -43,10 +43,10 @@ pip install torch torchvision torchaudio
 
 ### 1. Configure the Model
 
-You can change the NLP model by modifying the model string. (Replace `MODEL_STRING` with the actual variable name used in your code.)
+You can change the transformer model by modifying the model string. (Replace `model_name` from your selected model from Hugging Face)
 
 ```python
-MODEL_STRING = "your_model_name_here"
+model_name = "your_model_name_here"
 ```
 
 ### 2. Run the NLP Pipeline
@@ -54,7 +54,7 @@ MODEL_STRING = "your_model_name_here"
 To run the NLP pipeline, use the following command:
 
 ```bash
-python run_nlp_pipeline.py
+python nlp.py
 ```
 
 ## Running the CV Pipeline
@@ -64,12 +64,6 @@ python run_nlp_pipeline.py
 To run the CV pipeline, use the following command:
 
 ```bash
-python run_cv_pipeline.py
+python ImageClassification.py  
 ```
 
-## Additional Information
-
-For more details on configuring and using the pipelines, please refer to the documentation or contact the repository maintainers.
-```
-
-You can copy this content and paste it into your `README.md` file.
